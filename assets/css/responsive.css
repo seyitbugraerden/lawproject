@@ -1,0 +1,481 @@
+/*============================================
+
+[Table of content]
+
+. Large tablets (less than  1200px)
+. Tablet Devices (less than  992px)
+. Large Mobile (less than  768px)
+. General Mobile (less than  576px)
+. Small Mobile (less than  480px)
+
+============================================*/
+
+/* . Large tablets (less than 1200px) */
+@media (max-width: 1199px) {
+    .post-details-cover .post-content-cover iframe {
+        height: 250px;
+    }
+}
+
+/* . Tablet Devices (less than  992px) */
+@media (max-width: 991px) {
+    /*  Default */
+    h2 {
+        font-size: 20px;
+    }
+    .pt-120 {
+        padding-top: 75px;
+    }
+    .pb-120 {
+        padding-bottom: 75px;
+    }
+    .pb-90 {
+        padding-bottom: 45px;
+    }
+    .pb-70 {
+        padding-bottom: 25px;
+    }
+    .lawFirm--btn {
+        padding: 10px 15px;
+    }
+    .lawFirm--section-title h2 {
+        margin-bottom: 35px;
+    }
+    .lawFirm--slider-right-nav .owl-nav {
+        margin-bottom: 50px;
+    }
+    .lawFirm--slider-right-nav .owl-nav .owl-next {
+        margin-left: 25px;
+    }
+    .lawFirm--section-title h2 br {
+        display: none;
+    }
+    .lawFirm--section-title.text-left h2 span:before {
+        width: 40px;
+    }
+
+    /* Navbar */
+    .lawFirm--navbar-cover {
+        min-height: 105px;
+    }
+    .lawFirm--header .lawFirm--navbar {
+        padding: 0px;
+        position: relative;
+    }
+    .lawFirm--header .lawFirm--nav-menu ul {
+        max-height: 450px;
+        overflow-y: auto;
+    }
+    /* Navbar - Logo */
+    .lawFirm--navbar .lawFirm--logo img {
+        max-width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
+    .lawFirm--navbar-cover.sticky .lawFirm--navbar .lawFirm--logo .img-fluid {
+        width: auto;
+    }
+
+    /* Navbar - Manu */
+    .lawFirm--nav-menu ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    .lawFirm--header .lawFirm--nav-menu > ul > li {
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        background: #171717;
+        border-bottom: 1px solid #222;
+    }
+    .lawFirm--header .lawFirm--nav-menu > ul > li > a {
+        padding: 10px 15px !important;
+        color: #fff;
+    }
+    .lawFirm--header .lawFirm--navbar-cover.black-version .lawFirm--nav-menu > ul > li > a {
+        color: #fff;
+    }
+    .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children > .sub-menu {
+        position: relative;
+        width: 100%;
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        margin-top: 0;
+        visibility: visible;
+        display: none;
+    }
+    .lawFirm--header .lawFirm--nav-menu.show-menu,
+    .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children > .sub-menu.show-menu {
+        display: block;
+    }
+    .lawFirm--header .lawFirm--nav-menu #menu-button {
+        display: block;
+        color: #fff;
+        z-index: 99;
+        font-size: 20px;
+        float: right;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .lawFirm--header .lawFirm--navbar-cover.black-version .lawFirm--nav-menu #menu-button {
+        color: #171717;
+    }
+    .lawFirm--navbar-cover.sticky .lawFirm--header .lawFirm--nav-menu #menu-button {
+        margin-top: 40px;
+    }
+    .lawFirm--header .lawFirm--nav-menu .submenu-button {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        width: 50px;
+        text-align: center;
+        color: #222;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .lawFirm--header .lawFirm--nav-menu > ul > li > .submenu-button {
+        height: 45px;
+    }
+    .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children > .sub-menu a {
+        padding: 8px 30px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children > .sub-menu {
+        top: auto;
+        left: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+    .lawFirm--header .lawFirm--nav-menu > ul > li > .submenu-button {
+        color: #fff;
+    } 
+
+    /* Navbar - Icons */
+    .lawFirm--mobile-header-icon {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        margin-top: 42px;
+    }
+    .lawFirm--mobile-header-icon .lawFirm--search-form-icon,
+    .lawFirm--mobile-header-icon .lawFirm--off-canvas-trigger {
+        margin: 0px 0 0 15px;
+    }
+    .lawFirm--navbar .p-relative {
+        position: static;
+    }
+    .lawFirm--navbar-cover.sticky .lawFirm--mobile-header-icon .lawFirm--search-form-icon, .lawFirm--navbar-cover.sticky .lawFirm--mobile-header-icon .lawFirm--off-canvas-trigger {
+        margin-top: 0px;
+    }
+    .lawFirm--mobile-header-icon .lawFirm--search-form-icon .lawFirm--header-search-form.showBlock {
+        margin-top: 31px;
+    }
+    
+    /* Banner */
+    .lawFirm--banner-slider-item .lawFirm--banner-slider-item-text h1 {
+        font-size: 40px;
+    }
+    .lawFirm--banner-slider-social-icons {
+        bottom: 60px;
+    }
+    .lawFirm--banner-slider-social-icons a {
+        height: 35px;
+        width: 35px;
+    }
+    .lawFirm--banner-slider-counter #counter {
+        display: none;
+    }
+
+    /* Filter */
+    .lawFirm--filter-search .form-control {
+        margin-bottom: 15px;
+    }
+    .lawFirm--filter-search.pb-50 {
+        padding-bottom: 35px;
+    }
+
+
+    /* About */
+    .lawFirm--about-text {
+        margin-bottom: 50px;
+    }
+    .lawFirm--about-image .lawFirm--about-image-view img {
+        width: auto;
+    }
+
+    /* Work Process */
+    .lawFirm--w-process-image {
+        margin-bottom: 50px;
+    }
+    .lawFirm--w-process-image .lawFirm--image-effect img {
+        width: 100%;
+    }
+
+    /* Service */
+    .lawFirm--service-slider-item-text {
+        margin-left: 0;
+        padding-left : 30px;
+    }
+    .lawFirm--service-slider-item-text .mt-40 {
+        margin-top: 20px;
+    }
+    .lawFirm--service-slider.owl-carousel .owl-item img {
+        width: auto;
+        max-width: 100%;
+    }
+    .lawFirm--service-slider-item-image {
+        max-width: 250px; 
+        margin: 0 auto;
+        margin-bottom: -25px;
+    }
+    .lawFirm--service-slider-item-text {
+        padding-top: 65px;
+    }
+
+    /* Team */
+    .lawFirm--team-slider .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+    .lawFirm--team-cover .lawFirm--nth:nth-child(even) .lawFirm--team-slider-item {
+        margin-top: 0px;
+    }
+
+    /* Internship */
+    .lawFirm--internship-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Testimonial */
+    .lawFirm--testimonials-slider .owl-nav .owl-prev {
+        left: -60px;
+    }
+    .lawFirm--testimonials-slider .owl-nav .owl-next {
+        right: -60px;
+    }
+    .lawFirm--testimonials .container {
+        max-width: 600px;
+    }
+    .lawFirm--testimonials-slider-item {
+        padding: 25px 35px 70px 35px;
+    }
+
+    /* Blogs */
+    .lawFirm--blog-slider-item .lawFirm--blog-slider-item-text ul li {
+        margin-right: 15px;
+    }
+    .lawFirm--widget:last-child {
+        margin-bottom: 0px;
+    }
+
+    /* Footer */
+    .lawFirm--footer-menu ul li a {
+        padding: 0px 7.5px;
+    }
+
+    /* Page - About */
+    
+    .lawFirm--page-title {
+        padding-top: 220px;
+        padding-bottom: 110px;   
+    }
+    .lawFirm--counter-item h2 {
+        font-size: 46px;
+    }
+    .lawFirm--counter-item h4 {
+        font-size: 20px;
+    }
+
+    /* Page - Lawyer Details */
+    .lawFirm--search-result-image {
+        margin-bottom: 30px;
+    }
+    .lawFirm--lawyer-details {
+        margin-top: 60px;
+    }
+
+    /* Page - Search Result */
+    .lawFirm--search-result-text ul li {
+        line-height: 1.5;
+    }
+    .lawFirm--search-result.pb-70 {
+        padding-bottom: 0px;
+    }
+
+
+    /* New */
+    .post-details-cover .post-thumb-cover .post-thumb iframe {
+        height: 250px;
+    }
+    .post-details-cover .post-all-comments .single-comment-wrapper .single-post-comment .comment-author-image {
+        width: 40px;
+    }
+    .post-details-cover .post-all-comments .single-comment-wrapper .single-post-comment .comment-content {
+        width: calc(100% - 40px);
+        padding-left: 20px;
+    }
+    .post-details-cover .post-all-comments .single-comment-wrapper .single-post-comment .comment-content p {
+        font-size: 13px;
+    }
+    .post-details-cover .post-all-comments .children {
+        margin-left: 60px;
+    }
+}
+
+/* . Large Mobile (less than  768px) */
+@media (max-width: 767px) {
+    /* Navbar */
+    .lawFirm--header .lawFirm--navbar-cover.sticky .lawFirm--nav-menu #menu-button {
+        margin-top: 5px;
+    }
+
+    /* Banner */
+    .lawFirm--banner-slider-item-image {
+        display: none;
+    }
+    .lawFirm--banner-slider-item-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .lawFirm--banner-slider.owl-carousel .owl-nav {
+        position: absolute;
+        top: auto;
+        bottom: 105px;
+        right: 50%;
+        -webkit-transform: translate(50%);
+                transform: translate(50%);
+        margin-top: -15px;
+    }
+    .lawFirm--banner-slider-social-icons {
+        display: none;
+    }
+    
+    /* Footer */
+    .lawFirm-footer-cradit {
+        padding-top: 30px;
+    }
+    .lawFirm--footer-logo {
+        margin-bottom: 15px;
+    }
+
+    /* Page - About */
+    .lawFirm--counter-item {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* 404 */
+    .lawFirm--error-page h1 span {
+        font-size: 36px;
+    }
+
+    /* Blog */
+    .lawFirm--blog-sidebar {
+        margin-top: 60px;
+    }
+
+    /* New */
+    .post-details-cover .post-all-comments {
+        padding: 20px;
+    }
+    .post-details-cover .post-all-comments .children {
+        margin-left: 30px;
+    }
+    .my-post-category a {
+        min-height: 300px;
+    }
+}
+
+/* . Small Mobile (less than  576px) */
+@media (max-width: 575px) {
+    .post-comment-form-cover form .form-control {
+        margin-bottom: 20px;
+    }
+}
+
+/* . Extra Small Mobile (less than  480px) */
+@media (max-width: 480px) {
+    /* Default */
+    .lawFirm--section-title h2 {
+        font-size: 36px;
+    }
+    .lawFirm--slider-right-nav .owl-nav {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        -webkit-transform: translateX(-25%);
+                transform: translateX(-25%);
+        bottom: auto;
+        right: 0px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .lawFirm--slider-right-nav .owl-nav .owl-next {
+        margin-left: 25px;
+    }
+
+    .lawFirm--mobile-header-icon .lawFirm--search-form-icon .lawFirm--header-search-form {
+        width: 280px;
+    }
+    .lawFirm--off-canvas {
+        width: 300px;
+    }
+    .lawFirm--navbar-cover {
+        min-height: auto;
+    }
+    .lawFirm--navbar-cover .lawFirm--navbar .lawFirm--logo .img-fluid {
+        max-height: 81px
+    }
+    .lawFirm--mobile-header-icon {
+        margin-top: 30px;
+    }
+
+    .lawFirm--about-image-view {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .lawFirm--about-image .lawFirm--about-image-view img{
+        max-height: 100%;
+    }
+    /* NEW */
+    .post-meta-info .title h2 {
+        font-size: 30px;
+    }
+    .post-meta-info .meta li {
+        line-height: 2.5;
+    }
+    .post-details-cover .post-about-author-box {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .post-details-cover .post-about-author-box .author-avatar {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 120px;
+        flex: 0 0 120px;
+        max-width: 120px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .post-details-cover .post-about-author-box .author-desc {
+        margin-left: 0;
+    }
+    .post-details-cover .post-about-author-box .author-desc h5 a,
+  .post-details-cover .post-about-author-box .author-desc .description,
+  .post-details-cover .post-about-author-box .author-desc .social-icons {
+        text-align: center;
+    }
+    .post-details-cover .post-all-comments .single-comment-wrapper .single-post-comment .comment-content .comment-author-name span {
+        display: block;
+    }
+    .post-details-cover .post-all-comments .children {
+        margin-left: 15px;
+    }
+}
